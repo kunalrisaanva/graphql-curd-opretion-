@@ -1,0 +1,57 @@
+
+
+
+query getAllData{
+  USER_LIST{
+  name
+    email
+    phone
+  }
+}
+
+
+
+
+
+query getSDataByName{
+  ONE_USER_DATA(name:"Sonu"){
+  name
+    email
+    phone
+  }
+}
+
+
+
+
+mutation{
+  USER_CREATE(id:"5",name:"Sonu",email:"sonu@gmail.com",phone:"988899999"){
+    name
+    email
+  }
+}
+
+
+
+
+
+
+mutation{
+  USER_UPDATE(id:"5",name:"manish kumar",email:"manish@gmail.com",phone:"99999999"){
+    name
+    email
+    phone
+  }
+}	
+
+
+
+
+
+
+mutation{
+  USER_DELETE(name:"kunal"){
+    message
+    succsess
+  }
+}	

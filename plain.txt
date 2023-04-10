@@ -1,0 +1,8 @@
+install graphql , graphql-express depdencies
+create graphql folder and create main file called schema 
+require that modules and use in middleware file and use main file as schema in this middleware 
+and export in graphqlSchema 
+make other folders like typedef and mutation querires
+after that 
+make typedef what will data client want
+

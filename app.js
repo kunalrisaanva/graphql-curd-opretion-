@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 9999 || 8088
+const PORT = 9999;
 const { graphqlHTTP } = require('express-graphql');
 const url = "mongodb://localhost:27017/GRA"
 const connecetDB = require("./config/dbConnection");
